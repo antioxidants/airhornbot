@@ -196,9 +196,11 @@ var REGICIDE *SoundCollection = &SoundCollection{
 	Commands: []string{
 		"!regicide",
 		"!reg",
+		"!dankicide",
 	},
 	Sounds: []*Sound{
 		createSound("regicide", 50, 250),
+		createSound("dankicide", 50, 250),
 	},
 }
 
