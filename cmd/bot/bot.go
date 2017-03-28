@@ -191,6 +191,17 @@ var WOW *SoundCollection = &SoundCollection{
 	},
 }
 
+var REGICIDE *SoundCollection = &SoundCollection{
+	Prefix: "destiny",
+	Commands: []string{
+		"!regicide",
+		"!reg",
+	},
+	Sounds: []*Sound{
+		createSound("regicide", 50, 250),
+	},
+}
+
 var COLLECTIONS []*SoundCollection = []*SoundCollection{
 	AIRHORN,
 	KHALED,
@@ -199,6 +210,7 @@ var COLLECTIONS []*SoundCollection = []*SoundCollection{
 	COW,
 	BIRTHDAY,
 	WOW,
+	REGICIDE,
 }
 
 // Create a Sound struct
