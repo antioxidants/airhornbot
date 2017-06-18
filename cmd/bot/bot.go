@@ -199,9 +199,9 @@ var REGICIDE *SoundCollection = &SoundCollection{
 		"!dankicide",
 	},
 	Sounds: []*Sound{
-		createSound("regicide", 50, 250),
-		createSound("dankicide", 50, 250),
-		createSound("fancyregicide", 50, 250),
+		createSound("regicide", 300, 250),
+		createSound("dankicide", 60, 250),
+		createSound("fancyregicide", 1000, 250),
 	},
 }
 
