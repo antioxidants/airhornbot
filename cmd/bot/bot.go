@@ -205,6 +205,18 @@ var REGICIDE *SoundCollection = &SoundCollection{
 	},
 }
 
+var SQUEAK *SoundCollection = &SoundCollection{
+	Prefix: "squeak",
+	Commands: []string{
+		"!squeaksqueakboom",
+		"!squeak",
+		"!boom",
+	},
+	Sounds: []*Sound{
+		createSound("squeak", 50, 250)
+	},
+}
+
 var COLLECTIONS []*SoundCollection = []*SoundCollection{
 	AIRHORN,
 	KHALED,
@@ -214,6 +226,7 @@ var COLLECTIONS []*SoundCollection = []*SoundCollection{
 	BIRTHDAY,
 	WOW,
 	REGICIDE,
+	SQUEAK,
 }
 
 // Create a Sound struct
