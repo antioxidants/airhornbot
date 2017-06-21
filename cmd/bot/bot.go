@@ -211,9 +211,11 @@ var SQUEAK *SoundCollection = &SoundCollection{
 		"!squeaksqueakboom",
 		"!squeak",
 		"!boom",
+		"!akbar",
 	},
 	Sounds: []*Sound{
 		createSound("squeak", 50, 250),
+		createSound("akbar", 50, 250),
 	},
 }
 
