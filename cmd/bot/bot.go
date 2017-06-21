@@ -213,7 +213,7 @@ var SQUEAK *SoundCollection = &SoundCollection{
 		"!boom",
 	},
 	Sounds: []*Sound{
-		createSound("squeak", 50, 250)
+		createSound("squeak", 50, 250),
 	},
 }
 
